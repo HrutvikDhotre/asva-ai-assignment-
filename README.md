@@ -11,6 +11,9 @@ Currently, two official plugins are available:
 "# asva-ai-assignment-"
 
 
+Technologies := HTML,CSS,React.js,Ant Design,Bootstrap,Context API
+
+
 Username and Password
 
 
