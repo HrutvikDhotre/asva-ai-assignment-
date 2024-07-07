@@ -8,4 +8,17 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 "# Asva-AI-Assignment" 
 "# Asva-AI-Assignment--" 
-"# asva-ai-assignment-" 
+"# asva-ai-assignment-"
+
+
+Username and Password
+Account 1 
+email = abcd@gmail.com
+password = abcd@123
+Account 2
+email = xyz@gmail.com
+password = xyz@gmail.com
+
+
+
+
