@@ -28,5 +28,9 @@ More of my work
 [github](https://github.com/pratham-18/Yatrasathi)
 
 
+To get an idea of the website's design and functionality, please check the images folder.
+
+
+
 
 
