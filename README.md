@@ -21,7 +21,7 @@ password = abcd@123
 
 Account 2
 email = xyz@gmail.com
-password = xyz@gmail.com
+password = xyz@123
 
 
 
