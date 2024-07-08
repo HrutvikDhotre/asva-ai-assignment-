@@ -14,6 +14,17 @@ Currently, two official plugins are available:
 Technologies := HTML,CSS,React.js,Ant Design,Bootstrap,Context API
 
 
+Instructions :=
+
+1) Clone or download zip
+
+2) Navigate to the folder where the package.json is
+
+3) run "npm i"
+
+4) after the packages are installed run "npm run dev"
+
+
 Username and Password
 
 
