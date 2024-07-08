@@ -13,21 +13,9 @@ export const mockSummarizationAPI = (text, length) => {
     const newLength = length.toLowerCase()
     const keywords = extractKeywords(text)
     const summaries = {
-        short: (
-            <div>
-                This is a <span className="fw-bolder">short</span> summary of the text, focusing on keywords such as <span className="fw-bolder">{keywords.slice(0, 2).join(", ")}.</span>
-            </div>
-        ),
-        medium: (
-            <div>
-              This is a <span className="fw-bolder">medium</span> summary of the text, focusing on keywords such as <span className="fw-bolder">{keywords.slice(0, 3).join(", ")}.</span>
-            </div>
-          ),
-        long: (
-            <div>
-              This is a <span className="fw-bolder">long</span> summary of the text, focusing on keywords such as <span className="fw-bolder">{keywords.slice(0, 5).join(", ")}.</span>
-            </div>
-          )
+        short:  `This is a short summary of the text, focusing on keywords such as ${keywords.slice(0, 2).join(", ")}.`,
+        medium:`This is a medium length summary of the text, focusing on keywords such as ${keywords.slice(0, 3).join(", ")}.`,
+        long:`This is a long summary of the text, focusing on keywords such as ${keywords.slice(0, 5).join(", ")}.`
     }
 
     return summaries[newLength]

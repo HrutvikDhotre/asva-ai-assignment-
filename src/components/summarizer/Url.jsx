@@ -124,6 +124,7 @@ const Url = () => {
         console.log("hola summary")
         // const summary = generateSummary('Long')
         const summary = mockSummarizationAPI(scrapeData,'medium')
+        console.log(summary)
         setSummary(summary)
         storeData(url,summary)
 

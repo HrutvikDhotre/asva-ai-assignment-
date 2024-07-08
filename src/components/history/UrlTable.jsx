@@ -27,6 +27,8 @@ const UrlTable = () => {
     const [summaryHistory, setSummaryHistory] = useState(null)
 
     const handleViewSummary = (data) => {
+        console.log("this is the data")
+        console.log(data)
         setSummaryHistory(data)
         setShowPreview(true)
     }

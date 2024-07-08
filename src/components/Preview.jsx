@@ -29,7 +29,7 @@ const Preview = ({ showPreview, setShowPreview, title, scrapeData, setScrapeData
             setScrapeData(content)
             setShowPreview(false)
             // const summary = generateSummary('Medium')
-            console.log("hi summary")
+            // console.log("hi summary")
             const summary = mockSummarizationAPI(content,'medium')
             console.log(summary)
             setSummary(summary)
@@ -45,13 +45,21 @@ const Preview = ({ showPreview, setShowPreview, title, scrapeData, setScrapeData
                     <div className='preview-content mx-5 my-2'>
                         <div className='text-center fw-bolder fs-1 mb-4 text-gradient'>{title ? title : ""}
                         </div>
-                        <textarea
+                       {title === 'Preview' ?  <textarea
                             className='p-4 w-100 h-75'
                             value={content}
                             onChange={(e) => setContent(e.target.value)}
                             onFocus={handleFocus}
                             onBlur={handleBlur}
-                        />
+                        /> : 
+                        <textarea
+                        className='p-4 w-100 h-75'
+                        value={content}
+                        // onChange={(e) => setContent(e.target.value)}
+                        onFocus={handleFocus}
+                        onBlur={handleBlur}
+                    /> 
+                        }
                         <div className='button-container'>
                            {title !== 'Preview' ? <button
                                 className='custombtn  mt-2 '
