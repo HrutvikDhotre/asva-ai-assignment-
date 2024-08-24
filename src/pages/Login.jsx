@@ -10,7 +10,7 @@ const Login = () => {
 
 
   const { currentColour,  setIsLoggedIn,setUserEmail} = useStateContext();
-  const [formData, setFormData] = useState({ username: '', password: '' })
+  const [formData, setFormData] = useState({ username: 'abcd@gmail.com', password: 'abcd@123' })
   const navigate = useNavigate()
 
   async function handleLogin(e) {
